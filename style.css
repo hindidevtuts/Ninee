@@ -1,0 +1,281 @@
+/*Some defaults style*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.marginBottom{
+    margin-bottom: 70px;
+}
+p{
+    color: #34495e;
+}
+
+/*Header section style*/
+
+.headerBox{
+    background:#13C4A5;
+    padding: 70px 0px;
+
+    }
+.headerBox h1 {
+    font-size: 5em;
+      color: #ffffff;
+text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.5);
+
+ font-weight:bolder;
+}
+
+.headerBox p {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1em;
+}
+
+/*Services section style*/
+
+.services {
+    padding: 45px 0px;;
+}
+
+.services h1 {
+    font-size: 2em;
+    font-weight:bold;
+    color: #2c3e50;
+}
+.services h3 {
+    color:#2c3e50;
+    font-weight: bolder;
+}
+.services span{
+    font-size:6em;
+    opacity: .4;
+}
+.services span:hover{
+    color:#13C4A5;
+    opacity: 1;
+}
+
+.services .sbox{
+margin-bottom:30px;
+}
+
+
+/*Call to action section*/
+
+.callToAction {
+    background-color: #EB5946;
+    padding:45px 0px;
+    text-align: right;
+}
+.callToAction p{
+    font-size:18px;
+    color: #fff;
+    margin-bottom: 30px;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.callToAction .btn-default {
+    color: #fffcfc;
+    background-color: #EB5946;
+    border-color: #fffefe;
+}
+.callToAction .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #EB5946;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+/*Courses section*/
+
+.course h1{
+    font-size: 2em;
+    font-weight:bold;
+    color: #2c3e50;
+}
+.course img{
+    margin:0 auto;
+    background-size: 100%;
+
+}
+
+.course .cbox{
+ margin-bottom: 30px;
+}
+
+
+/*Footer section*/
+
+.footer {
+    background: #2C3E50;
+    padding:30px 0px;
+    text-align: right;
+}
+.footer p{
+    font-size: 1.3em;
+    color: #ECECEC;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+     .headerBox{
+        padding: 160px 0px;
+
+        }
+    .headerBox h1 {
+        font-size: 7em;
+    }
+    .headerBox p {
+        font-size: 1.3em;
+    }
+    .callToAction {
+        background-color: #EB5946;
+        padding:100px 0px;
+        text-align: right
+    }
+
+    .callToAction p{
+        font-size:32px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+    /*Some defaults style*/
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .row{
+        margin: 0px;
+        padding: 0px;
+    }
+    .marginBottom{
+        margin-bottom: 70px;
+    }
+    p{
+        color: #34495e;
+    }
+
+    /*Header section style*/
+
+    .headerBox{
+        background:#13C4A5;
+        padding: 180px 0px;
+
+        }
+    .headerBox h1 {
+        font-size: 7em;
+          color: #ffffff;
+    text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.5);
+
+     font-weight:bolder;
+    }
+
+    .headerBox p {
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 1.5em;*/
+    }
+
+    /*Services section style*/
+
+    .services {
+        padding: 70px 0px;;
+    }
+
+    .services h1 {
+        font-size: 3em;
+        font-weight:bold;
+        color: #2c3e50;
+    }
+    .services h3 {
+        color:#2c3e50;
+        font-weight: bolder;
+    }
+    .services span{
+        font-size:6em;
+        opacity: .4;
+    }
+    .services span:hover{
+        color:#13C4A5;
+        opacity: 1;
+    }
+    /*
+    .services .sbox{
+    margin-bottom: 26px;
+    }
+    */
+
+    /*Call to action section*/
+
+    .callToAction {
+        background-color: #EB5946;
+        padding:120px 0px;
+        text-align: right
+    }
+    .callToAction p{
+        font-size:32px;
+        color: #fff;
+        margin-bottom: 30px;
+       font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .callToAction .btn-default {
+        color: #fffcfc;
+        background-color: #EB5946;
+        border-color: #fffefe;
+    }
+    .callToAction .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+        color: #EB5946;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    /*Courses section*/
+
+    .course h1{
+        font-size: 3em;
+        font-weight:bold;
+        color: #2c3e50;
+    }
+    .course img{
+        margin:0 auto;
+        background-size: 100%;
+
+    }
+    /*
+    .course .cbox{
+     margin-bottom: 25px;
+    }
+    */
+
+    /*Footer section*/
+
+    .footer {
+        background: #2C3E50;
+        padding:30px 0px;
+        text-align: right;
+    }
+    .footer p{
+        font-size: 1.3em;
+        color: #ECECEC;
+    }
+
+}
+
+
+
